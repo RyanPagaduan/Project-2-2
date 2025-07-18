@@ -1,0 +1,48 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: cadetblue;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #f1f1f1;
+  color: cadetblue;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+header {background-color:aquamarine;
+font-family: Lucida Handwriting, cursive;
+color: mediumseagreen}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rosybrown;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: salmon;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+body {background-color:antiquewhite}
